@@ -39,4 +39,8 @@ public class Test extends BaseDatetimeExtended implements Serializable {
     @Column(name = "TEST_NAME", length = 40)
     @Comment("이름")
     private String testName;
+
+    @Column(name = "TEST_TAG", length = 40)
+    @Comment("태그")
+    private String testTag;
 }
